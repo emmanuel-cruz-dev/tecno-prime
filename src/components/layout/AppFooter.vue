@@ -82,7 +82,7 @@
 
       <div class="border-t border-zinc-800 pt-6"></div>
       <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-gray-500 text-sm">&copy; 2024 Tecno Prime. Todos los derechos reservados.</p>
+        <p class="text-gray-500 text-sm">&copy; 2025 Tecno Prime. Todos los derechos reservados.</p>
         <div class="flex gap-6">
           <router-link
             to="#"
