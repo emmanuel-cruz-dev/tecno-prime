@@ -7,22 +7,22 @@ const router = useRouter()
 
 const items = ref([
   {
-    label: 'Home',
+    label: 'Inicio',
     icon: 'pi pi-home',
     command: () => router.push('/'),
   },
   {
-    label: 'Features',
+    label: 'Productos',
+    icon: 'pi pi-box',
+    command: () => router.push('/products'),
+  },
+  {
+    label: 'Nosotros',
     icon: 'pi pi-star',
-    command: () => router.push('/features'),
+    command: () => router.push('/about'),
   },
   {
-    label: 'Projects',
-    icon: 'pi pi-search',
-    command: () => router.push('/projects'),
-  },
-  {
-    label: 'Contact',
+    label: 'Contacto',
     icon: 'pi pi-envelope',
     command: () => router.push('/contact'),
   },
